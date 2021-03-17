@@ -1,0 +1,15 @@
+{
+  "name": "spark_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/itsYogesh751/SparksTask1.git"
+  },
+  "author": "yogesh diwate",
+  "license": "ISC"
+}
