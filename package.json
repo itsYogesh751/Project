@@ -11,5 +11,8 @@
     "url": "\u0016https://github.com/itsYogesh751/SparksTask1.git"
   },
   "author": "yogesh diwate",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
 }
