@@ -5,19 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="container-fluid bg-dark">
-    <br>
-    <br/>
-    <h2 class="col-sm">Save Worlds Biggest Cats</h2>
-        <img src="./img/tiger2.jfif" class="col-sm-9 img-fluid" alt="tiger">
-    <button type="submit" class="btn btn-link btn-light col-sm-1">
-        <a href="">Donate now</a>
-    </button>
+     <nav class="navbar-nav">
+        <ul class="row">
+            <li class="nav-item col-sm-1"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item col-sm-1"><a class="nav-link" href="#Ourwork">Our work</a></li>
+            <li class="nav-item col-sm-1"><a class="nav-link" href="#faq">Faq</a></li>
+            <li class="nav-item col-sm-2"><a class="nav-link" href="#stats">Tiger Stats</a></li>
+        </ul>
+     </nav>
+    <header class="container-fluid bg-dark col-12">
+    <div class="row">     
+    <h2 class="col-sm-9">Save Worlds Biggest Cats</h2>
+    <form class="col-sm" id="donate"><script src="https://checkout.razorpay.com/v1/payment-button.js" 
+        data-payment_button_id="pl_Go8qzTT6CQVyNu" async> </script> </form>
     </div>
-     <article class="card">
+    <div class="row">          
+    <img src="./img/tiger2.jfif" class="col-sm-8 img-fluid" alt="tiger">
+    <div class="col-sm-1">       
+    <h1 id="sparks">The Sparks Foundation</h1>
+    <img src="./img/sparks.png" alt="sparks"  id="sparksimg">
+    </div>
+    </div>
+    </header>
+     <article class="card" style="margin:20px;">
          <h3 class="card-header">
              Tiger poulation is reducing 
          </h3>
@@ -27,5 +42,46 @@
             The decline is attributed to illegal trade in tiger parts, hunting and habitat loss.
          </div>
      </article>
+           
+    <section class="offset-sm-3 col-sm-6" id="faq">
+        <div class="card">
+        <h3 class="card-header">Some question and answers</h3>
+        <div class="card-body">
+        <details>
+            <summary>Are Tigers in danger ?</summary>
+            <div>Tigers are in great danger of extinction. 
+                around 95% of tigers have gone extinct in 20th century.
+                Hunters still search for tigers .
+            </div>
+        </details>
+    </br>
+        <details>
+            <summary>why should we save tigers?</summary>
+            <div>
+                It is a top predator which is at the apex of the food chain and keeps the population of wild ungulates in check, thereby maintaining the balance between prey herbivores and the vegetation upon which they feed. 
+                Therefore, the presence of tigers in the forest is an indicator of the well being of the ecosystem.
+            </div>
+        </details>
+    </br>
+        <details>
+            <summary>How can we help to save tigers?</summary>
+            <div>
+                Donation can help to save tigers . This donation will be used to grow forest and natural habitat 
+                for tigers. Your small help can make very big change.
+                To Donate <a href="#donate">Click here</a>  
+              </div>
+        </details>
+        </div>
+        </div>
+    </section>
+    <footer class="jumbotron">
+        <div class="offset-sm-10">    
+        <em>Made by Yogesh Diwate</em>
+        <a href="https://www.linkedin.com/in/yogesh-diwate-6365b5197/"><i class="fa fa-linkedin fa-lg"></i></a>
+        </div>
+    </footer>
+     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

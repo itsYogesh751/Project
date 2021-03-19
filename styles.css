@@ -1,0 +1,78 @@
+h2{
+    color: white;
+}
+details{
+    border:3px black solid;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+details:nth-child(5){
+    margin-bottom: 60px;
+}
+details summary{
+    background-color: lightgreen;
+    font-size: larger;
+}
+.jumbotron{
+    height:20px;
+}
+#sparks{
+    font-size:78px;
+}
+#sparksimg{
+    margin-bottom: 3px;
+}
+ul{
+    background-color: antiquewhite;
+}
+nav{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+body nav{
+    background-color: grey;
+    padding-bottom:0px;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+    border:2px antiquewhite solid;
+    margin-bottom: 0px;
+    padding:5px;
+    border-radius: 5px;
+    margin-left: 0px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color:black;
+}
+ul:nth-child(4){
+    padding: 3px;
+    color:green;
+}
+li:hover{
+    background-color: grey;
+    color:black;
+}
+.nav-link:hover{
+    color: black;
+}
+.bg-dark{
+    margin-top: 0px;
+    margin-right: 0px;
+}
+.container-fluid{
+    margin-right: 0px;
+}
+.nav-link{
+    color: black;
+}
+.card{
+    margin-bottom: 10px;
+}
